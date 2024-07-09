@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Text:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Images/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "DM Serif Text", serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+nav h1 {
+    padding: 2px 30px;
+    color: white;
+    font-size: 50px
+}
+
+.container {
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(14, 3, 3, 0.637);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+}
+
+.item1 {
+    text-align: center;
+    margin: 40px 0;
+
+}
+
+.linea-division {
+    height: 8px; 
+    background-color: #e43a10ab; 
+    margin: 20px 0; 
+}
+
+input {
+    background-color: black;
+    width: 600px;
+    height: 40px;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+    margin: 30px;
+}
+
+button {
+    background-color: #e43a10ab;
+    color: white;
+    width: 100px;
+    height: 40px;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+#ciudades { 
+    width: 600px;
+    height: 40px;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+
+
